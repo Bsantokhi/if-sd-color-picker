@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="background">
     <div class="container">
         <img src="img/color-pick-1.png" width="420px" alt="" srcset="">
         <h1>Bouw een eigen Color Picker 🥳</h1>
@@ -23,8 +23,8 @@
         </p>
         R <input type="range" class="red" name="red" min="0" max="255" value="125"> <span class="r-value">125</span>
         <br>
-        G <input type="range" min="0" max="10" value="6"> <span>6</span> <br>
-        B <input type="range" min="0" max="10" value="1"> <span>1</span> <br>
+        G <input type="range" class="green" name="green" min="0" max="255" value="30"> <span class="g-value">30</span> <br>
+        B <input type="range" class="blue" name="blue" min="0" max="255" value="1"> <span class="b-value">1</span> <br>
         <p class="result">De circel hieronder is (bij de start) rood van kleur.</p>
         <div class="circle">
         </div>
@@ -51,5 +51,7 @@
         <p><strong>Let op! </strong>Je mag geen ingebouwde colorpicker gebruiken zoals &ltinput type="color"&gt!</p>
         <p><strong>Let the hacking begin!</strong></p>
     </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
